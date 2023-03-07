@@ -3,11 +3,11 @@ Implementation of Graph Convolution Layer for graphs with nodes of two different
 
 
 # Usage
-The code provides LabeledConv class, which can be directly used instead of the usual GCNConv layer in your Graph Neural Network. So instead of 
+The code provides LabeledConv class, which can be directly used instead of the usual GCNConv layer in your Graph Neural Network. Instead of
 
 y = GCNConv(x, edge_data)
 
-you can write
+use the line
 
 y = LabeledConv(x, node_type0, node_type1, edge_data00, edge_data01, edge_data10, edge_data11)
 
